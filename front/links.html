@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página de Redes Sociais</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .social-buttons {
+            margin: 20px;
+        }
+
+        .social-button {
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gabriel Mesquita</h1>
+        <button id="hiddenButton">Return to home screen</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Adicione um evento de clique ao botão
+            document.getElementById("hiddenButton").addEventListener("click", function() {
+                // Redireciona para index.html (ou outra página desejada)
+                window.location.href = "index.html";
+            });
+        
+            // Torna o botão visível
+            document.getElementById("hiddenButton").style.display = "block";
+        });
+    </script>
+    </header>
+    <h2>👋
+        <br>
+        Hello again!
+    </h2>
+    <p>Welcome to my own place on the internet.</p>
+
+    <p>If you'd like, here are some useful links:</p>
+
+    <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/gabriel-mesquita-01b742299/" class="social-button" target="_blank">
+            LinkedIn
+        </a>
+<br>
+<br>
+        <a href="https://twitter.com/eumescas" class="social-button" target="_blank">
+            Twitter
+        </a>
+<br>
+<br>
+        <a href="https://www.linkedin.com/in/gabriel-mesquita-01b742299/" class="social-button" target="_blank">
+            GitHub
+        </a>
+<br>
+<br>
+        <a href="https://gitlab.com/" class="social-button" target="_blank">
+            GitLab
+        </a>
+<br>
+<br>
+        <a href="mailto:MesquiitaaViana@gmail.com" class="social-button" target="_blank">
+            Email
+        </a>
+<br>
+<br>
+        <a href="https://api.whatsapp.com/send?phone=5511953331959" class="social-button" target="_blank">
+            WhatsApp
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Gabriel Mesquita</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+    display: block; /* Transforma o botão em um elemento de bloco para ocupar toda a largura disponível */
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* Estilos para a seção "About" */
+section {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para os links na lista */
+ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor azul para os links */
+}
+
+/* Estilos para os links ao passar o mouse sobre eles */
+ul li a:hover {
+    text-decoration: underline;
+    color: #ff5722; /* Cor laranja para os links ao passar o mouse */
+}
+
+.resume-info {
+    font-family: verdana, sans-serif;
+    font-size: 0.8em;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.education-info {
+    font-family: verdana, sans-serif;
+    font-size: 0.8em;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
